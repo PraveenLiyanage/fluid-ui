@@ -4,6 +4,7 @@ library fluid_ui;
 export 'core/engine/fluid_app.dart';
 export 'core/engine/fluid_controller.dart';
 export 'core/engine/heuristic_engine.dart';
+export 'core/engine/predictive_engine.dart';
 export 'core/breakpoints/fluid_breakpoints.dart';
 export 'core/semantics/fluid_priority.dart';
 export 'core/overflow/overflow_recovery.dart';
@@ -15,6 +16,7 @@ export 'widgets/adaptive_table.dart';
 export 'widgets/adaptive_scaffold.dart';
 export 'widgets/adaptive_text.dart';
 export 'widgets/adaptive_inspector.dart';
+export 'widgets/fluid_animator.dart';
 
 // Tokens
 export 'tokens/spacing.dart';

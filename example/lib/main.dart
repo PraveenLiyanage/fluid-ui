@@ -74,21 +74,25 @@ class DashboardScreen extends StatelessWidget {
             const SizedBox(height: FluidSpacing.md),
             AdaptiveRow(
               children: [
-                Container(
-                  height: 100,
-                  decoration: BoxDecoration(
-                    color: Colors.blue.withOpacity(0.1),
-                    borderRadius: BorderRadius.circular(12),
+                FluidAnimator(
+                  child: Container(
+                    height: 100,
+                    decoration: BoxDecoration(
+                      color: Colors.blue.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: const Center(child: Text('Left / Top Content')),
                   ),
-                  child: const Center(child: Text('Left / Top Content')),
                 ),
-                Container(
-                  height: 100,
-                  decoration: BoxDecoration(
-                    color: Colors.red.withOpacity(0.1),
-                    borderRadius: BorderRadius.circular(12),
+                FluidAnimator(
+                  child: Container(
+                    height: 100,
+                    decoration: BoxDecoration(
+                      color: Colors.red.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: const Center(child: Text('Right / Bottom Content')),
                   ),
-                  child: const Center(child: Text('Right / Bottom Content')),
                 ),
               ],
             ),

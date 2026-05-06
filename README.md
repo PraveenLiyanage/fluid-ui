@@ -81,7 +81,7 @@ Handles sidebar/drawer navigation state automatically.
 - [x] v0.1.0: Core adaptive widgets and breakpoint engine.
 - [x] v0.2.0: AI-assisted layout heuristics.
 - [x] v0.3.0: Visual adaptive inspector.
-- [ ] v1.0.0: Full enterprise toolkit & AI layout prediction.
+- [x] v1.0.0: Full enterprise toolkit & AI layout prediction.
 
 ---
 
