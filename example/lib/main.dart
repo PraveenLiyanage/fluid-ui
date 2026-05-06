@@ -130,6 +130,12 @@ class DashboardScreen extends StatelessWidget {
             title: const Text('Settings'),
             onTap: () {},
           ),
+          const Divider(),
+          ListTile(
+            leading: const Icon(Icons.bug_report_outlined, color: Colors.blue),
+            title: const Text('Fluid Inspector'),
+            onTap: () => FluidController.of(context).toggleInspector(),
+          ),
         ],
       ),
     );
